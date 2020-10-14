@@ -6,7 +6,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 if(isMobile===true){
-	alert("Redirecting to Mobile Website");
+
 	window.location="mobile_smarter.html";
 }
 else if (isMobile===false){
